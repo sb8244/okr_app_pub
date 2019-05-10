@@ -1,0 +1,19 @@
+{
+  "recorded_at": "2018-10-29T04:48:51.847274Z",
+  "file": "test/okr_app_web/controllers/api/objective_controller_test.exs",
+  "data": {
+    "data": {
+      "updated_at": "2018-10-29T04:48:51.840564",
+      "mid_score": "0.00",
+      "key_results": [],
+      "inserted_at": "2018-10-29T04:48:51.833824",
+      "id": 1324,
+      "final_score": "0.00",
+      "contributes_to_objectives": [],
+      "contributed_by_objectives": [],
+      "content": "test",
+      "cancelled_at": "2018-10-29T04:48:51.835647Z",
+      "assessment": null
+    }
+  }
+}

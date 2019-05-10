@@ -1,0 +1,38 @@
+{
+  "recorded_at": "2018-10-29T04:48:51.788095Z",
+  "file": "test/okr_app_web/controllers/api/objective_controller_test.exs",
+  "data": {
+    "data": {
+      "updated_at": "2018-10-29T04:48:51.767578",
+      "mid_score": "0.00",
+      "key_results": [
+        {
+          "updated_at": "2018-10-29T04:48:51.768386",
+          "mid_score": "0.0",
+          "inserted_at": "2018-10-29T04:48:51.768378",
+          "id": 380,
+          "final_score": "0.0",
+          "content": "a",
+          "cancelled_at": null
+        },
+        {
+          "updated_at": "2018-10-29T04:48:51.769284",
+          "mid_score": "0.0",
+          "inserted_at": "2018-10-29T04:48:51.769272",
+          "id": 381,
+          "final_score": "0.0",
+          "content": "b",
+          "cancelled_at": null
+        }
+      ],
+      "inserted_at": "2018-10-29T04:48:51.767570",
+      "id": 1321,
+      "final_score": "0.00",
+      "contributes_to_objectives": [],
+      "contributed_by_objectives": [],
+      "content": "test",
+      "cancelled_at": null,
+      "assessment": null
+    }
+  }
+}

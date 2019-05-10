@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <style type="text/css">
+    /* Directly embed CSS to avoid missing resources */
+    <%= raw(File.read!("priv/static/css/email.css")) %>
+    </style>
+  </head>
+  <body bgcolor="#eeeeee">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper" width="100%">
+      <tr>
+        <td valign="top">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" class="header" width="100%">
+            <tr>
+              <td valign="top">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="header-content" width="700">
+                  <tr>
+                    <td valign="middle" width="200">
+                      <a href="https://salesloft.com">
+                        <img alt="SalesLoft" border="0" width="200" height="50" src="<%= static_url(OkrAppWeb.Endpoint, "/images/salesloft.logo.white.png") %>" />
+                      </a>
+                    </td>
+                    <td align="right" valign="middle" width="500">
+                      <%= display_date() %>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper" width="100%">
+      <tr>
+        <td valign="top">
+          <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="main" width="700">
+            <tr>
+              <td>
+                <%= render @view_module, @view_template, assigns %>
+              </td>
+            </tr>
+          </table>
+          <table align="center" border="0" cellpadding="0" cellspacing="0" class="footer" width="700">
+            <tr>
+              <td align="center" valign="top">
+                <br />
+                <p>
+                  You received this email because you are signed up with <a href="https://okrs.salesloft.com">OKR App</a>
+                </p>
+                <p>
+                  Please contact through Slack (#okr-app) for any issues
+                </p>
+                <p class="small">
+                  SalesLoft, LLC, 1180 West Peachtree Street NW, Suite 600, Atlanta, GA 30309.
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

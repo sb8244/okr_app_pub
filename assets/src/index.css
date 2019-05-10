@@ -1,0 +1,19 @@
+html, body, #react-app {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: #fafcfe;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.panel--tight .panel-body {
+  padding: 5px 15px;
+}

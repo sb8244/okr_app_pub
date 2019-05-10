@@ -1,0 +1,13 @@
+{
+  "recorded_at": "2018-10-29T18:19:24.964729Z",
+  "file": "test/okr_app_web/controllers/api/objective_assessment_controller_test.exs",
+  "data": {
+    "data": {
+      "updated_at": "2018-10-29T18:19:24.947120",
+      "objective_id": 1843,
+      "inserted_at": "2018-10-29T18:19:24.947092",
+      "id": 119,
+      "assessment": "test"
+    }
+  }
+}

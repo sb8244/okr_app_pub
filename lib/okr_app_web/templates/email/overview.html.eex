@@ -1,0 +1,24 @@
+<p>Hi <%= @first_name %>,</p>
+<p>Below are your OKRs! Now is a great time to plan your week and track your progress.</p>
+
+<h3>Cycle: <%= @cycle_title %></h3>
+
+<%= for {obj = %OkrApp.Objectives.Objective{content: content, key_results: key_results}, index} <- Enum.with_index(@objectives) do %>
+  <div class="okr-section okr-section-<%= rem(index, 2) %>">
+    <div><%= content %> as measured by... <small><i>Mid: <%= mid_objective_score(obj)  %> | Final: <%= final_objective_score(obj) %></i></small></div>
+    <ul>
+      <%= for kr = %OkrApp.Objectives.KeyResult{content: content} <- key_results do %>
+        <li><%= content %> - <small><i>Mid: <%= mid_key_result_score(kr)  %> | Final: <%= final_key_result_score(kr) %></i></small></li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>
+
+<p>
+  You can click to edit or update your OKRs <a href="<%= @view_url %>">here</a>, as well as refer to <a href="https://okrplaybook.salesloft.com">our playbook</a>.
+</p>
+
+<p>
+  Good luck!<br>
+  The OKR Bot
+</p>

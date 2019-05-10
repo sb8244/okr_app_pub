@@ -1,0 +1,14 @@
+{
+  "recorded_at": "2018-10-29T18:22:10.437740Z",
+  "file": "test/okr_app_web/controllers/api/objective_assessment_controller_test.exs",
+  "data": {
+    "errors": {
+      "objective_id": [
+        "can't be blank"
+      ],
+      "assessment": [
+        "can't be blank"
+      ]
+    }
+  }
+}

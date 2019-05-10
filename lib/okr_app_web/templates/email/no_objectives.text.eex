@@ -1,0 +1,10 @@
+Hi <%= @first_name %>,
+
+I noticed you haven't created any OKRs for this cycle, '<%= @cycle_title %>'. Its never too late in the quarter to begin!
+
+OKRs are all about thinking big about what is important and then executing with excellence.
+
+You can click to add your OKRs at <%= @view_url %>, as well as refer to our playbook at https://okrplaybook.salesloft.com.
+
+Good luck!
+The OKR Bot

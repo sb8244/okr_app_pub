@@ -1,0 +1,14 @@
+{
+  "recorded_at": "2018-09-14T03:39:27.573185Z",
+  "file": "test/okr_app_web/controllers/api/objective_link_controller_test.exs",
+  "data": {
+    "data": [
+      {
+        "source_objective_id": 7402,
+        "linked_to_objective_id": 7403,
+        "inserted_at": "2018-09-14T03:39:27.557847",
+        "id": 2332
+      }
+    ]
+  }
+}

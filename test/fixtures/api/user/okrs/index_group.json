@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2018-10-29T21:35:53.618749Z",
+  "file": "test/okr_app_web/controllers/api/okr_controller_test.exs",
+  "data": {
+    "data": [
+      {
+        "owner": {
+          "slug": "a-group",
+          "pinned": false,
+          "owner_type": "group",
+          "name": "A group",
+          "id": 1096
+        },
+        "okr_reflection": null,
+        "objectives": [],
+        "id": 2780,
+        "cycle": {
+          "title": "Q1",
+          "starts_at": "2018-10-29T21:35:53.604467Z",
+          "id": 3474,
+          "ends_at": "2018-10-29T21:35:53.604467Z",
+          "active": false
+        }
+      }
+    ]
+  }
+}

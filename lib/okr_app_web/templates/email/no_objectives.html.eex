@@ -1,0 +1,12 @@
+<p>Hi <%= @first_name %>,</p>
+<p>I noticed you haven't created any OKRs for this cycle, <strong>'<%= @cycle_title %>'</strong>. Its never too late in the quarter to begin!</p>
+<p>OKRs are all about thinking big about what is important and then executing with excellence.</p>
+
+<p>
+  You can click to add your OKRs <a href="<%= @view_url %>">here</a>, as well as refer to <a href="https://okrplaybook.salesloft.com">our playbook</a>.
+</p>
+
+<p>
+  Good luck!<br>
+  The OKR Bot
+</p>

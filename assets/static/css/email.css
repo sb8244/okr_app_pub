@@ -1,0 +1,115 @@
+/* Base */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  font-size: 14px;
+}
+
+a {
+  color: #337ab7;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+p, li {
+  color: #4F5359;
+  font-size: 15px;
+  line-height: 1.618;
+}
+
+h2 {
+  color: #222222;
+  font-size: 20px;
+  line-height: 1.618;
+}
+
+/* Utilities */
+
+.centered {
+  text-align: center;
+}
+
+/* Structural */
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.wrapper td {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+
+.header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #262d3f;
+}
+
+.header td {
+  padding: 0 20px;
+}
+
+.header-content {
+  padding: 20px 0;
+  color: #fff;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+/* Main Area */
+
+.main {
+  padding: 20px 20px;
+  background: #ffffff;
+  font-family: sans-serif;
+}
+
+/* Footer */
+
+.footer {
+  width: 700px;
+}
+
+.footer td {
+  margin: 0;
+  padding: 5px 0 10px;
+  color: #7d7a7a;
+  font-family: sans-serif;
+}
+
+.footer a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.footer p {
+  font-size: 13px;
+  line-height: 0.4;
+}
+
+.footer p.small {
+  font-size: 10px;
+}
+
+
+.okr-section {
+  padding: 20px;
+}
+
+.okr-section-0 {
+  background-color: #caddff;
+}
+
+.okr-section ul {
+  margin-bottom: 0;
+}

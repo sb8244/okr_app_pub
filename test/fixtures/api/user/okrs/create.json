@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2018-10-29T21:35:53.600153Z",
+  "file": "test/okr_app_web/controllers/api/okr_controller_test.exs",
+  "data": {
+    "data": {
+      "owner": {
+        "user_name": "bbc96186-55d2-4571-856d-af0f3c6bc84e",
+        "slug": ".",
+        "owner_type": "user",
+        "name": "",
+        "id": "bbc96186-55d2-4571-856d-af0f3c6bc84e",
+        "emails": [],
+        "active": true
+      },
+      "okr_reflection": null,
+      "objectives": [],
+      "id": 2779,
+      "cycle": {
+        "title": "Q1",
+        "starts_at": "2018-10-29T21:35:53.590463Z",
+        "id": 3473,
+        "ends_at": "2018-10-29T21:35:53.590463Z",
+        "active": false
+      }
+    }
+  }
+}

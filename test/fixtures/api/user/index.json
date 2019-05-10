@@ -1,0 +1,31 @@
+{
+  "recorded_at": "2018-09-14T03:39:27.429500Z",
+  "file": "test/okr_app_web/controllers/api/user_controller_test.exs",
+  "data": {
+    "data": [
+      {
+        "user_name": "SallyWillTest",
+        "slug": "sally.issatester",
+        "name": "Sally Issatester",
+        "id": "1709897b-f431-4343-8250-943c89a824d8",
+        "groups": [],
+        "emails": [],
+        "active": false
+      },
+      {
+        "user_name": "SteveTester",
+        "slug": "steve.tester",
+        "name": "Steve Tester",
+        "id": "b8bacdec-f6c7-436a-8bc5-95295676029e",
+        "groups": [
+          {
+            "name": "A group",
+            "id": 2965
+          }
+        ],
+        "emails": [],
+        "active": true
+      }
+    ]
+  }
+}

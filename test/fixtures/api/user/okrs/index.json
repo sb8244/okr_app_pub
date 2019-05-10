@@ -1,0 +1,164 @@
+{
+  "recorded_at": "2018-10-29T21:35:53.546143Z",
+  "file": "test/okr_app_web/controllers/api/okr_controller_test.exs",
+  "data": {
+    "data": [
+      {
+        "owner": {
+          "user_name": "dbd27240-1860-4209-9b93-8923025745c9",
+          "slug": ".",
+          "owner_type": "user",
+          "name": "",
+          "id": "dbd27240-1860-4209-9b93-8923025745c9",
+          "emails": [],
+          "active": true
+        },
+        "okr_reflection": null,
+        "objectives": [
+          {
+            "updated_at": "2018-10-29T21:35:53.521895",
+            "mid_score": "0.00",
+            "key_results": [
+              {
+                "updated_at": "2018-10-29T21:35:53.527039",
+                "mid_score": "0.0",
+                "inserted_at": "2018-10-29T21:35:53.527030",
+                "id": 1063,
+                "final_score": "0.0",
+                "content": "KeyResult Content",
+                "cancelled_at": null
+              }
+            ],
+            "inserted_at": "2018-10-29T21:35:53.521871",
+            "id": 3939,
+            "final_score": "0.00",
+            "contributes_to_objectives": [],
+            "contributed_by_objectives": [
+              {
+                "updated_at": "2018-10-29T21:35:53.519055",
+                "owner": {
+                  "user_name": "dbd27240-1860-4209-9b93-8923025745c9",
+                  "slug": ".",
+                  "owner_type": "user",
+                  "name": "",
+                  "id": "dbd27240-1860-4209-9b93-8923025745c9",
+                  "emails": [],
+                  "active": true
+                },
+                "inserted_at": "2018-10-29T21:35:53.519047",
+                "id": 3937,
+                "content": "Objective Content",
+                "cancelled_at": null
+              }
+            ],
+            "content": "Objective Content",
+            "cancelled_at": null,
+            "assessment": null
+          }
+        ],
+        "id": 2775,
+        "cycle": {
+          "title": "Q1",
+          "starts_at": "2018-10-29T21:35:53.515743Z",
+          "id": 3468,
+          "ends_at": "2018-08-01T00:00:00.000000Z",
+          "active": false
+        }
+      },
+      {
+        "owner": {
+          "user_name": "dbd27240-1860-4209-9b93-8923025745c9",
+          "slug": ".",
+          "owner_type": "user",
+          "name": "",
+          "id": "dbd27240-1860-4209-9b93-8923025745c9",
+          "emails": [],
+          "active": true
+        },
+        "okr_reflection": null,
+        "objectives": [
+          {
+            "updated_at": "2018-10-29T21:35:53.519055",
+            "mid_score": "0.00",
+            "key_results": [
+              {
+                "updated_at": "2018-10-29T21:35:53.523825",
+                "mid_score": "0.0",
+                "inserted_at": "2018-10-29T21:35:53.523816",
+                "id": 1060,
+                "final_score": "0.0",
+                "content": "KeyResult Content",
+                "cancelled_at": null
+              },
+              {
+                "updated_at": "2018-10-29T21:35:53.525050",
+                "mid_score": "0.0",
+                "inserted_at": "2018-10-29T21:35:53.525041",
+                "id": 1061,
+                "final_score": "0.0",
+                "content": "KeyResult Content",
+                "cancelled_at": null
+              }
+            ],
+            "inserted_at": "2018-10-29T21:35:53.519047",
+            "id": 3937,
+            "final_score": "0.00",
+            "contributes_to_objectives": [
+              {
+                "updated_at": "2018-10-29T21:35:53.521895",
+                "owner": {
+                  "user_name": "dbd27240-1860-4209-9b93-8923025745c9",
+                  "slug": ".",
+                  "owner_type": "user",
+                  "name": "",
+                  "id": "dbd27240-1860-4209-9b93-8923025745c9",
+                  "emails": [],
+                  "active": true
+                },
+                "inserted_at": "2018-10-29T21:35:53.521871",
+                "id": 3939,
+                "content": "Objective Content",
+                "cancelled_at": null
+              }
+            ],
+            "contributed_by_objectives": [],
+            "content": "Objective Content",
+            "cancelled_at": null,
+            "assessment": null
+          },
+          {
+            "updated_at": "2018-10-29T21:35:53.520267",
+            "mid_score": "0.00",
+            "key_results": [
+              {
+                "updated_at": "2018-10-29T21:35:53.526065",
+                "mid_score": "0.0",
+                "inserted_at": "2018-10-29T21:35:53.526056",
+                "id": 1062,
+                "final_score": "0.0",
+                "content": "KeyResult Content",
+                "cancelled_at": null
+              }
+            ],
+            "inserted_at": "2018-10-29T21:35:53.520254",
+            "id": 3938,
+            "final_score": "0.00",
+            "contributes_to_objectives": [],
+            "contributed_by_objectives": [],
+            "content": "Objective Content",
+            "cancelled_at": null,
+            "assessment": null
+          }
+        ],
+        "id": 2774,
+        "cycle": {
+          "title": "Q1",
+          "starts_at": "2018-10-29T21:35:53.514423Z",
+          "id": 3467,
+          "ends_at": "2018-07-01T00:00:00.000000Z",
+          "active": false
+        }
+      }
+    ]
+  }
+}

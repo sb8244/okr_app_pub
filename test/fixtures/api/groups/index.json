@@ -1,0 +1,20 @@
+{
+  "recorded_at": "2018-10-08T16:46:52.930598Z",
+  "file": "test/okr_app_web/controllers/api/group_controller_test.exs",
+  "data": {
+    "data": [
+      {
+        "slug": "group-1",
+        "pinned": false,
+        "name": "group 1",
+        "id": 3399
+      },
+      {
+        "slug": "group-2",
+        "pinned": false,
+        "name": "group 2",
+        "id": 3400
+      }
+    ]
+  }
+}

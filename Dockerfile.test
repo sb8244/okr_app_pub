@@ -1,0 +1,32 @@
+FROM elixir:1.7.3-slim as builder
+
+LABEL maintainer="SalesLoft"
+
+ENV LC_ALL en_US.UTF-8
+ENV LANG en_US.UTF-8
+ENV LANGUAGE en_US.UTF-8
+
+RUN apt-get update && apt-get -y install openssl locales locales-all git build-essential curl postgresql-client
+
+RUN curl -sL https://deb.nodesource.com/setup_10.x | bash -
+
+RUN apt-get install -y nodejs
+
+# Install hex
+RUN /usr/local/bin/mix local.hex --force && \
+    /usr/local/bin/mix local.rebar --force && \
+    /usr/local/bin/mix hex.info
+
+WORKDIR /app
+
+COPY assets/package.json assets/package-lock.json ./assets/
+RUN cd assets && npm install
+
+COPY mix.exs mix.lock ./
+RUN MIX_ENV=test mix deps.get && MIX_ENV=test mix deps.compile
+
+COPY . .
+
+RUN cd assets && npm run deploy
+
+RUN ["chmod", "+x", "./codeship.wait.sh", "./ci.sh"]

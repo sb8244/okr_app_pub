@@ -1,0 +1,14 @@
+{
+  "recorded_at": "2018-10-29T21:39:18.542332Z",
+  "file": "test/okr_app_web/controllers/api/okr_reflection_controller_test.exs",
+  "data": {
+    "errors": {
+      "reflection": [
+        "can't be blank"
+      ],
+      "okr_id": [
+        "can't be blank"
+      ]
+    }
+  }
+}

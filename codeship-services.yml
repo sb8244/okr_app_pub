@@ -1,0 +1,15 @@
+okr-mix:
+  build:
+    dockerfile_path: ./Dockerfile.test
+  depends_on:
+    - db
+  environment:
+    - MIX_ENV=test
+    - DATABASE_HOST=db
+    - DATABASE_USER=postgres
+    - DATABASE_PORT=5432
+  cached: true
+
+db:
+  image: postgres
+  cached: true

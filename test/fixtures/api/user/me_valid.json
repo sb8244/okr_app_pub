@@ -1,0 +1,20 @@
+{
+  "recorded_at": "2018-09-14T03:39:27.396260Z",
+  "file": "test/okr_app_web/controllers/api/user_controller_test.exs",
+  "data": {
+    "data": {
+      "user_name": "SteveTester",
+      "slug": "steve.tester",
+      "name": "Steve Tester",
+      "id": "a3cf5a9c-a392-4bb9-ae9f-02c3132a447b",
+      "groups": [
+        {
+          "name": "A group",
+          "id": 2964
+        }
+      ],
+      "emails": [],
+      "active": true
+    }
+  }
+}

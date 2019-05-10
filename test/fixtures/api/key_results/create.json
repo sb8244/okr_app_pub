@@ -1,0 +1,15 @@
+{
+  "recorded_at": "2018-09-14T03:39:27.647084Z",
+  "file": "test/okr_app_web/controllers/api/key_result_controller_test.exs",
+  "data": {
+    "data": {
+      "updated_at": "2018-09-14T03:39:27.645546",
+      "mid_score": "0.0",
+      "inserted_at": "2018-09-14T03:39:27.645528",
+      "id": 2859,
+      "final_score": "0.0",
+      "content": "test",
+      "cancelled_at": null
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "recorded_at": "2018-09-14T03:39:27.169466Z",
+  "file": "test/okr_app_web/controllers/api/cycle_controller_test.exs",
+  "data": {
+    "data": [
+      {
+        "title": "Q1",
+        "starts_at": "2018-09-14T03:39:27.092827Z",
+        "id": 7996,
+        "ends_at": "2018-09-14T03:49:27.092673Z",
+        "active": true
+      },
+      {
+        "title": "Q1",
+        "starts_at": "2018-09-14T03:39:27.091172Z",
+        "id": 7995,
+        "ends_at": "2018-09-14T03:44:27.091046Z",
+        "active": true
+      }
+    ]
+  }
+}

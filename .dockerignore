@@ -1,0 +1,35 @@
+.dockerignore
+.git
+.gitignore
+.log
+.elixir_ls
+tmp
+docker
+releases
+cover
+scripts
+db_init
+
+# Mix artifacts
+_build
+deps
+*.ez
+
+# VM crashes
+erl_crash.dump
+
+# Phoenix asset related
+node_modules/
+assets/node_modules/
+
+doc
+
+codeship.aes
+keyfile.rsa
+keyfile.rsa.pub
+ssh_key.args
+
+log/
+releases/
+
+.tags*
