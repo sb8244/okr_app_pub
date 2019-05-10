@@ -8,12 +8,6 @@ use Mix.Config
 # with brunch.io to recompile .js and .css sources.
 config :okr_app, OkrAppWeb.Endpoint,
   http: [port: 6006],
-  https: [
-    port: 6007,
-    keyfile: "~/src/localhost.salesloft.com.key",
-    certfile: "~/src/localhost.salesloft.com.crt",
-    cacertfile: "~/src/localhost.salesloft.com.chain.pem"
-  ],
   debug_errors: true,
   code_reloader: true,
   check_origin: false,

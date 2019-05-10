@@ -1,9 +1,0 @@
-- type: parallel
-  steps:
-  - name: test
-    service: okr-mix
-    command: ./ci.sh
-
-  - name: format
-    service: okr-mix
-    command: mix format --check-formatted
